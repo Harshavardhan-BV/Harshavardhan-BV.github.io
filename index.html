@@ -116,15 +116,17 @@
 								<div class="container">
 									<h3>Contact Me</h3>
 									<ul>
-										<li><a id="email" title="E-Mail" href="#" class="icon solid fa-envelope" onclick="ePost();return false;"> E-Mail: please click</a></li>
-										<li><a id="phone" title="Phone" href="#" class="icon solid fa-phone" onclick="grahamBell();return false;"> Phone: please click</a></li>
-										<li><a id="signal" title="Signal" href="#" class="icon solid fa-comment"> Signal: not-working</a></li>
-										<li><a id="matrix" title="Telegram" href="#" class="icon brands fa-telegram" onclick="morseCode();return false;"> Telegram: please click</a></li>
-										<li><a id="discord" title="Discord" href="#" class="icon brands fa-discord"> Discord: not-working</a></li>
-										<li><a id="matrix" title="Matrix" href="#" class="icon solid fa-message" onclick="neoMorpheus();return false;"> Matrix: please click</a></li>
+										<li><a id="email" title="E-Mail" href="#click" class="icon solid fa-envelope" onclick="hyperClick(this.id);return false;"> E-Mail: please click</a></li>
+										<li><a id="phone" title="Phone" href="#click" class="icon solid fa-mobile-phone" onclick="hyperClick(this.id);return false;"> Phone: please click</a></li>
+										<li><a id="signal" title="Signal" href="#click" class="icon solid fa-comment" onclick="hyperClick(this.id);return false;"> Signal: please click</a></li>
+										<li><a id="matrix" title="Telegram" href="#click" class="icon brands fa-telegram" onclick="hyperClick(this.id);return false;"> Telegram: please click</a></li>
+										<li><a id="discord" title="Discord" href="#click" class="icon brands fa-discord"onclick="hyperClick(this.id);return false;"> Discord: not-working</a></li>
+										<li><a id="matrix" title="Matrix" href="#click" class="icon solid fa-message" onclick="hyperClick(this.id);return false;"> Matrix: please click</a></li>
 									</ul>
 									<p>Note: As I generally do not pick up calls from unknown number, please contact me through other means before calling via phone</p>
-									<noscript>Please enable javascript to see my contact details.</noscript>
+									<noscript id="click">
+									<p>It seems that you do not have javascript. Please enable it to see and use the clickable hyperlinks for my contact details. If you're not a bot you may use your intelligence instead for my email: {last_name}[underscore]{first_name}[at]live[dot]com.</p>
+									</noscript>
 								</div>
 							</section>
 							
