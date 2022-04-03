@@ -6,7 +6,7 @@ function hyperClick(type){
         break;
         case 'phone': link='tel:'+isd+'-'+ph_front+'-'+ph_mid+'-'+ph_end;target="_self";
         break;
-        case 'signal': link='https://signal.me/#p/+'+isd+ph_front+ph_mid+ph_end;;target="_blank";
+        case 'signal': link='https://signal.me/#p/'+isd+ph_front+ph_mid+ph_end;;target="_blank";
         break;
         case 'matrix': link='https://matrix.to/#/@'+alter_ego+':matrix.org';target="_blank";
         break;
