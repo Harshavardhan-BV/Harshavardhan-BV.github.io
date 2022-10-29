@@ -8,11 +8,11 @@ function hyperClick(type){
         break;
         case 'signal': link='https://signal.me/#p/'+isd+ph_front+ph_mid+ph_end;;target="_blank";
         break;
+        case 'whatsapp': link='https://wa.me/'+isd+ph_front+ph_mid+ph_end;;target="_blank";
+        break;
         case 'matrix': link='https://matrix.to/#/@'+alter_ego+':matrix.org';target="_blank";
         break;
         case 'telegram': link='https://t.me/'+F_name+'_'+L_name;target="_blank";
-        break;
-        case 'discord': link='https://discord.com/app';target="_blank";
         break;
         default: link='#';target="_self";
     }
