@@ -22,10 +22,12 @@
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
-						<li><a href="#three">My Experience</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#about" class="active">About</a></li>
+						<li><a href="#cando">Things I Can Do</a></li>
+						<li><a href="#research">Research Experience</a></li>
+						<!-- <li><a href="#publication">Publications</a></li>
+						<li><a href="#teach">Teaching Experience</a></li> -->
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -33,9 +35,7 @@
 					<ul class="icons">
 						<li><a href="https://github.com/Harshavardhan-BV/" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
 						<li><a href="https://twitter.com/HarshavardhanBV" class="icon brands fa-twitter" target="_blank" rel="noopener noreferrer"><span class="label">Twitter</span></a></li>
-						<li><a href="https://steamcommunity.com/id/RIP-DeadMan-RIP/" class="icon brands fa-steam" target="_blank" rel="noopener noreferrer"><span class="label">Steam</span></a></li>
-						<li><a href="https://www.twitch.tv/ripdeadmanrip" class="icon brands fa-twitch" target="_blank" rel="noopener noreferrer"><span class="label">Twitch</span></a></li>
-						<li><a href="https://www.youtube.com/channel/UCpgddYFDeLGLRBW3ChP3Z9A" class="icon brands fa-youtube" target="_blank" rel="noopener noreferrer"><span class="label">YouTube</span></a></li>
+						<li><a href="https://www.youtube.com/@rip-d3dm4n" class="icon brands fa-youtube" target="_blank" rel="noopener noreferrer"><span class="label">YouTube</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -47,7 +47,7 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
+							<section id="about">
 								<div class="image main" data-position="center">
 									<img src="images/banner.jpg" alt="" />
 								</div>
@@ -63,7 +63,7 @@
 							</section>
 
 						<!-- Two -->
-							<section id="two">
+							<section id="cando">
 								<div class="container">
 									<h3>Things I Can Do</h3>
 									<ul class="feature-icons">
@@ -74,18 +74,27 @@
 										<li class="icon solid fa-gamepad">Pwn some noobs</li>
 										<li class="icon solid fa-frog">Make dank memes</li>
 										<li class="icon solid fa-book">Read books and stuff</li>
-										<li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-coffee">Drink much chai</li>
 									</ul>
 								</div>
 							</section>
 
 						<!-- Three -->
-							<section id="three">
+							<section id="research">
 								<div class="container">
 									<h3>My Experience</h3>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<a href="https://doi.org/10.1101/2020.12.23.424181" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Mathematical modelling of X reactivation dynamics</h4>
+												<h5>August 2020 - July 2021</h5>
+												<h6>Under Dr. Mohit Jolly and Dr. Srimonta Gayen, IISc Bengaluru</h6>
+												<p>Developed a phenomenological mathematical model that attempts to reproduce the dynamics of X-reactivation and erasure of upregulation. The X-chromosomes were considered interacting entities in a modelling framework with different interaction topologies. fit. The case where both the chromosomes inhibit each other and self-inhibit is able to best explain the observed behaviour.</p>
+											</div>
+										</article>
+										<article>
+											<a href="http://dr.iiserpune.ac.in:8080/xmlui/handle/123456789/6073" class="image"><img src="images/pic01.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Implications of resource competition for adaptive therapy of prostate cancer</h4>
 												<h5>August 2020 - July 2021</h5>
@@ -125,18 +134,10 @@
 							</section>
 
 						<!-- Four -->
-							<section id="four">
+							<section id="contact">
 								<div class="container">
 									<h3>Contact Me</h3>
-									<ul>
-										<li><a id="email" title="E-Mail" href="#click" class="icon solid fa-envelope" onclick="hyperClick(this.id);return false;"> E-Mail: please click</a></li>
-										<li><a id="phone" title="Phone" href="#click" class="icon solid fa-mobile-phone" onclick="hyperClick(this.id);return false;"> Phone: please click</a></li>
-										<li><a id="signal" title="Signal" href="#click" class="icon solid fa-comment" onclick="hyperClick(this.id);return false;"> Signal: please click</a></li>
-										<li><a id="whatsapp" title="Whatsapp" href="#click" class="icon brands fa-whatsapp" onclick="hyperClick(this.id);return false;"> WhatsApp: please click</a></li>
-										<li><a id="telegram" title="Telegram" href="#click" class="icon brands fa-telegram" onclick="hyperClick(this.id);return false;"> Telegram: please click</a></li>
-										<li><a id="matrix" title="Matrix" href="#click" class="icon solid fa-message" onclick="hyperClick(this.id);return false;"> Matrix: please click</a></li>
-									</ul>
-									<p>Note: As I generally do not pick up calls from unknown number, please contact me through other means before calling via phone</p>
+									<a id="email" title="E-Mail" href="#click" class="icon solid fa-envelope" onclick="hyperClick(this.id);return false;"> E-Mail: please click</a>
 									<noscript id="click">
 									<p>It seems that you do not have javascript. Please enable it to see and use the clickable hyperlinks for my contact details. If you're not a bot you may use your intelligence instead for my email: {last_name}[underscore]{first_name}[at]live[dot]com.</p>
 									</noscript>
@@ -150,7 +151,7 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>CC-BY-SA: Harshavardhan BV </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><a href="https://www.beevee.ga">beevee.ga</a> is proudly self-hosted.</li>
+								<li>CC-BY-SA: Harshavardhan BV </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li><a href="https://www.hbv.io.in">hbv.io.in</a> is proudly self-hosted.</li>
 							</ul>
 						</div>
 					</section>
